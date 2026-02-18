@@ -1,0 +1,2 @@
+class WikitionaryReaderException(Exception):
+    pass
