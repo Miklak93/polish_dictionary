@@ -100,7 +100,9 @@ To launch it, run:
 ``` bash
 streamlit run Dictionary
 ```
+
 Then open the displayed local URL in your browser.
+
 <img width="365" height="430" alt="image" src="https://github.com/user-attachments/assets/e3d185c4-980b-4a94-89bc-87048c330d46" />
 
 ------------------------------------------------------------------------
