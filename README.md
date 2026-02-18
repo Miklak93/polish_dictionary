@@ -1,5 +1,6 @@
 # Polish Dictionary
-<img width="659" height="475" alt="image" src="https://github.com/user-attachments/assets/d6e2db45-8e98-44aa-a8c3-70352957eb41" />
+<img width="440" height="419" alt="image" src="https://github.com/user-attachments/assets/f3607807-e15f-40d4-b9b8-1ff99c9e140c" />
+
 
 Polish Dictionary is a Streamlit application that allows users to search
 Polish words using regular expressions within more than 160 000 words.
@@ -72,24 +73,21 @@ Search all words matching a regular expression:
 ``` bash
 Dictionary-Cmd search -r "*[u|ó]l"
 ```
-<img width="315" height="308" alt="image" src="https://github.com/user-attachments/assets/49bbc647-9a26-4e92-bf61-d89219940ecb" />
-
+<img width="281" height="350" alt="image" src="https://github.com/user-attachments/assets/274f06a3-a62c-47f7-b34e-4d9bab1deb29" />
 
 Search only verbs (`cz` = czasownik):
 
 ``` bash
 Dictionary-Cmd search -r "*[u|ó]l" -t cz
 ```
-<img width="369" height="461" alt="image" src="https://github.com/user-attachments/assets/dbc208b1-f58f-44fd-a828-56789c01de3e" />
-
+<img width="224" height="400" alt="image" src="https://github.com/user-attachments/assets/c85055ca-41e8-4209-90e9-42a2a654b836" />
 
 Search verbs with length between 3 and 4 characters:
 
 ``` bash
-Dictionary-Cmd search -r "*[u|ó]l" -t cz -3 -M 4
+Dictionary-Cmd search -r "*[u|ó]l" -t cz -m 3 -M 4
 ```
-<img width="379" height="236" alt="image" src="https://github.com/user-attachments/assets/1151ddee-78e9-48d7-999b-35f3f10938a3" />
-
+<img width="245" height="160" alt="image" src="https://github.com/user-attachments/assets/c712dbc6-4538-47c9-b4d8-5e26346a7df4" />
 
 ------------------------------------------------------------------------
 
@@ -102,8 +100,7 @@ To launch it, run:
 ``` bash
 streamlit run Dictionary
 ```
-<img width="599" height="449" alt="image" src="https://github.com/user-attachments/assets/c3861235-a36c-4b5b-88c5-8aa1b5745e62" />
-
+<img width="365" height="430" alt="image" src="https://github.com/user-attachments/assets/e3d185c4-980b-4a94-89bc-87048c330d46" />
 
 Then open the displayed local URL in your browser.
 
